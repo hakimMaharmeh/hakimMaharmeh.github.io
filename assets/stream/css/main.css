@@ -1,0 +1,153 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.owlContain{
+
+	margin-top:27%;
+    height:500px;
+	position: relative;
+}
+
+.testimonials blockquote:before {
+    display: none;
+}
+.testimonials blockquote {
+    border: 0 none;
+    display: block;
+
+}
+.testimonials blockquote p {
+    width: 100%;
+	text-align:left;
+	padding-bottom: 30px;
+}
+.testimonials blockquote cite {
+	color: white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	opacity:0.7;
+	-webkit-backface-visibility:hidden;
+}
+#godown {
+	position: absolute;
+    bottom: 0;
+	text-align:center;
+	width:100%;
+	color:white;
+
+}
+#godown p {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 1.4em;
+
+
+	font-style:normal;
+    text-transform: uppercase;
+	letter-spacing: .5px;
+}
+
+#godown > p > a{
+
+	color:white;
+
+}
+#godown p {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 1.4em;
+
+
+	font-style:normal;
+    text-transform: uppercase;
+	letter-spacing: .5px;
+}
+
+.huge-title {
+
+
+	text-align:left;
+	font-family: 'Raleway', sans-serif;
+
+}
+.huge-title p {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.4em;
+}
+
+.huge-title h4 {
+    letter-spacing: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 33px;
+	line-height: 1.2em;
+	font-weight: 500;
+
+	text-align:left;
+    color: white;
+    opacity: 0.95;
+}
+.button-box {
+	margin: 0 auto; 
+	display: block; 
+}
+/*
+==============================================
+floating Animation
+==============================================
+*/
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+
+
+
+
+
